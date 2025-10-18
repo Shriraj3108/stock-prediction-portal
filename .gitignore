@@ -186,4 +186,23 @@ psd
 thumb
 sketch
 
+
+# --- Custom additions for stock-prediction-portal ---
+
+# TensorFlow virtual environment
+tfenv/
+
+# Model files (large weights – optional)
+*.keras
+*.h5
+*.pkl
+
+# Frontend build artifacts
+frontend-react/dist/
+frontend-react/.vite/
+
+# Mac system files
+.DS_Store
+
+
 # End of https://www.toptal.com/developers/gitignore/api/django,react
